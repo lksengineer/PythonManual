@@ -22,6 +22,6 @@ notas = {
     'María': 6,
     'Pablo': 3
 }
-list4 = [f"{nombre}: {nota}" for (nombre, nota) in notas.items() if nota >= 5]
+list4 = [nombre for (nombre, nota) in notas.items() if nota >= 5]
 print(list4)
 # ['Carmen', 'Juan', 'Mónica', 'María']
